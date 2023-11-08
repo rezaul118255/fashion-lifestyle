@@ -13,6 +13,7 @@ import Logo3 from '../../../../public/logo-3.png';
 import Logo4 from '../../../../public/logo-4.png';
 import Logo5 from '../../../../public/logo-5.png';
 import Logo6 from '../../../../public/logo (3).png';
+import Marquee from "react-fast-marquee";
 
 const Part3 = () => {
     return (
@@ -54,31 +55,65 @@ const Part3 = () => {
             </header>
             {/* Logo section */}
 
-            <div className='w-full bg-white '>
-                <div className='grid grid-cols-2 md:grid-cols-6 mx-16 py-12 '>
-                    <div>
-                        <Image src={Logo1} />
-                    </div>
-                    <div>
-                        <Image src={Logo2} />
-                    </div>
-                    <div>
-                        <Image src={Logo3} />
-                    </div>
-                    <div>
-                        <Image src={Logo4} />
-                    </div>
-                    <div>
-                        <Image src={Logo5} />
-                    </div>
-                    <div>
-                        <Image src={Logo5} />
+            <div className='w-full  '>
+                <div className=''>
+                    <div className='w-52 mx-auto text-center font-medium'>
+                        <h3 className='border-b-2 border-[#f60014] pb-4'>BRANDS THAT TRUST US</h3>
                     </div>
 
+                    <Marquee className='w-full gap-10 mt-16 grid grid-cols-3 lg:grid-cols-6  justify-items-center items-center  container mx-auto'>
+                        <div>
+
+                            <Image
+                                src={Logo1}
+                                alt="Image"
+                                className='w-28 mx-10 h-auto '
+                            />
+                        </div>
+                        <div>
+                            <Image
+                                src={Logo2}
+                                alt="Image"
+                                className='w-28 mx-10 h-auto '
+                            />
+                        </div>
+                        <div>
+                            <Image
+                                src={Logo3}
+                                alt="Image"
+                                className='w-28 mx-10 h-auto '
+                            />
+                        </div>
+                        <div>
+                            <Image
+                                src={Logo4}
+                                alt="Image"
+                                className='w-28 mx-10 h-auto '
+                            />
+                        </div>
+                        <div>
+                            <Image
+                                src={Logo5}
+                                alt="Image"
+                                className='w-28 mx-10 h-auto '
+                            />
+                        </div>
+                        <div>
+                            <Image
+                                src={Logo6}
+                                alt="Image"
+                                className='w-28 mx-10 h-auto '
+                            /></div>
+
+                    </Marquee>
 
                 </div>
+
+
+
+
             </div>
-            <div className='bg-white grid grid-cols-1 md:grid-cols-3 gap-8  py-12'>
+            <div className='bg-white grid grid-cols-1 md:grid-cols-3 gap-8 mt-8  py-12'>
 
 
                 <div className='bg-purple-500 ms-6 md:ms-12'>
