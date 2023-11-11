@@ -18,14 +18,22 @@ const Footer = () => {
 
 
             </div>
-            <div className='bg-black text-white  py-6 flex items-center justify-around container w-full'>
+            <div className='bg-black text-white px-12  py-6 flex items-center justify-around  w-full'>
                 <div>
                     <p>Copyright © 2023 Fashion Lifestyle Blog</p>
                 </div>
-                <div className='gap-12'>
-                    <a href="">Home</a>
-                    <a href="">About </a>
-                    <a href="">Blog </a>
+                <div className='flex gap-6'>
+                    <div>
+                        <a href="">Home</a>
+                    </div>
+                    <div>
+                        <a href="/about">About </a>
+                    </div>
+
+
+                    <div>
+                        <a href="/blogs">Blog </a>
+                    </div>
                 </div>
             </div>
 
