@@ -1,18 +1,18 @@
 /* eslint-disable jsx-a11y/alt-text */
-
-
-
-
 import React from 'react';
 import './Part3.css';
 import Image from 'next/image';
 import part3 from '../../../../public/part1.jpg';
+
 import Logo1 from '../../../../public/logo-1.png';
 import Logo2 from '../../../../public/logo-2.png';
 import Logo3 from '../../../../public/logo-3.png';
 import Logo4 from '../../../../public/logo-4.png';
 import Logo5 from '../../../../public/logo-5.png';
 import Logo6 from '../../../../public/logo (3).png';
+
+import card1 from '../../../../public/Fashion1.jpg';
+import card2 from '../../../../public/lifestyle2.jpg';
 import Marquee from "react-fast-marquee";
 
 const Part3 = () => {
@@ -171,7 +171,7 @@ const Part3 = () => {
                 </div>
                 <div className='px-6'>
 
-                    <Image className='h-[300px] w-auto' src={part3} />
+                    <Image className='h-[300px] w-auto' src={card1} />
                     <p className='text-3xl mt-5  '>Ive Worked with from Big Agencies to New Bloggers.</p>
                     <p className='mt-4 '>Molestiae purus facilisi nonummy soluta nisi odit, ac taciti voluptatibus, eveniet veritatis cubilia magna. Imperdiet.</p>
 
@@ -179,7 +179,7 @@ const Part3 = () => {
                     <button className='btn btn-outline mt-6'>Read more</button>
                 </div>
                 <div className='px-6'>
-                    <Image className='h-[300px] w-auto' src={part3} />
+                    <Image className='h-[300px] w-auto' src={card2} />
                     <p className='text-3xl mt-5'>Ive Worked with from Big Agencies to New Bloggers.</p>
                     <p className='mt-4 '>Molestiae purus facilisi nonummy soluta nisi odit, ac taciti voluptatibus, eveniet veritatis cubilia magna. Imperdiet.</p>
 

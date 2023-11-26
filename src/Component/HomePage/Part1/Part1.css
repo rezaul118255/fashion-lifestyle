@@ -1,5 +1,11 @@
 .featured-item {
-    height: auto;
 
-    background-image: url('../../../../public/part1.jpg');
+
+    background-image: url('../../../../public/Lifestyle6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

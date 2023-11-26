@@ -1,14 +1,19 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import part2 from '../../../../public/part1.jpg'
+import part2 from '../../../../public/Fashion1.jpg'
+import part3 from '../../../../public/lifestyle3.jpg'
+import part4 from '../../../../public/Lifestyle4.jpg'
+import part5 from '../../../../public/Lifestyle5.jpg'
+import part6 from '../../../../public/Fashion1.jpg'
 import Image from 'next/image';
+
 
 const Part2 = () => {
     return (
-        <div className='mt-24'>
+        <div className=''>
             <div className='bg-[#cea579] flex flex-col md:flex-row h-auto   md:h-[500px]  '>
                 <div className='md:w-1/2 flex items-center justify-center '>
-                    <Image src={part2} className=" w-[80%] md:w-[60%]  h-[650px] -mt-36 md:-mt-12    " />
+                    <Image src={part2} className=" w-[80%] md:w-[60%]  h-[620px] -mt-36 md:-mt-4    " />
                 </div>
                 <div className=' md:w-1/2   p-8 my-auto'>
                     <h1 className='text-3xl text-white'>Discover Your Personal Style and the <br /> Confidence That Comes with It.</h1>
@@ -22,16 +27,16 @@ const Part2 = () => {
                 {/* image section  */}
                 <div className='mt-12  flex flex-col md:flex-row gap-8 mx-16'>
                     <div className=' flex items-center justify-center '>
-                        <Image src={part2} className=" w-[550px]    h-[450px]    " />
+                        <Image src={part3} className=" w-[550px]    h-[450px]    " />
                     </div>
                     <div className=' flex items-center justify-center '>
-                        <Image src={part2} className="w-[550px]  h-[550px]    " />
+                        <Image src={part4} className="w-[550px]  h-[550px]    " />
                     </div>
                     <div className=' flex items-center justify-center '>
-                        <Image src={part2} className=" w-[550px]  h-[600px]    " />
+                        <Image src={part5} className=" w-[550px]  h-[600px]    " />
                     </div>
                     <div className='flex items-center justify-center '>
-                        <Image src={part2} className="w-[550px]   h-[450px]    " />
+                        <Image src={part6} className="w-[550px]   h-[450px]    " />
                     </div>
                 </div>
                 <div className='flex flex-col md:flex-row gap-8 mx-16 mt-8'>

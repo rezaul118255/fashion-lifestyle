@@ -8,7 +8,7 @@ const Part1 = () => {
     return (
         <div>
 
-            <div className="featured-item bg-fixed text-white">
+            <div className="featured-item bg-fixed  text-white bg-[rgb(213,224,237)]">
 
 
 
@@ -32,7 +32,7 @@ const Part1 = () => {
 
                 </div>
             </div>
-            <div className='  pl-12 py-10 space-y-6  '>
+            <div className='  pl-12 py-32 space-y-6 bg-[rgb(213,224,237)] '>
                 <h1 className='text-2xl '>Great Style For Everyone</h1>
                 <h1 className='text-5xl '>I Love to Help People Feel Great </h1>
                 <h1 className='text-5xl '> about How They Look.</h1>

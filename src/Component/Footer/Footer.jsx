@@ -11,7 +11,7 @@ const Footer = () => {
                     </p>
 
                     <h1 className='text-4xl mt-6'>Consultations Are Free! </h1>
-                    <p className='text-xl mt-6'>Platea proident! Aute, rerum sociosqu numquam placerat, rerum molestias doloribus incidunt occaecati placeat, <br /> repellendus mus optio, totam cons.</p>
+                    <p className='text-xl mt-6 text-white-300'>Platea proident! Aute, rerum sociosqu numquam placerat, rerum molestias doloribus incidunt occaecati placeat, <br /> repellendus mus optio, totam cons.</p>
 
                     <button className='btn btn-outline mt-8'> lets get started</button>
                 </div>
